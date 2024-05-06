@@ -818,6 +818,7 @@ html {
 
     /*-----------------------------Get In Touch--------------------------*/
   .contact-container {
+    margin-top: -50px;
     height: 100vh;
     display: flex;
     align-items: center;
