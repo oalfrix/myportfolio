@@ -300,6 +300,7 @@ html {
   
   .location iframe {
     width: 100%;
+    padding-top: 50px;
   }
   
   .contact-us {
