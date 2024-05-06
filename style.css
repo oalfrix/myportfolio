@@ -433,6 +433,20 @@ html {
     transition: 0.5s;
     color: #000;
   }
+
+
+  .app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.app-container p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
   
   /*------------------------Responsive--------------------------------*/
   @media (max-width: 774px) {
