@@ -353,7 +353,7 @@ html {
   }
   
   /*------------------------Responsive--------------------------------*/
-  @media (max-width: 550px) {
+  @media (max-width: 774px) {
     .nav-links ul li a {
       font-size: 17px;
       font-weight: 500;
@@ -718,7 +718,115 @@ html {
     .back-to-top i {
       margin-left: -5px;
     }
+
+    /*-----------------------------Get In Touch--------------------------*/
+  .contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
+
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #0000006e;
+    padding: 40px;
+    border-radius: 25px;
+  }
+
+  .contact-left-title h2 {
+    font-weight: 600;
+    color: #645d5d;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .contact-left-title hr {
+    border: none;
+    width: 150px;
+    height: 2px;
+    background: #2c3244;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .contact-inputs {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #666;
+  }
+
+  .contact-left textarea {
+    height: 140px;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+
+  .contact-inputs:focus {
+    border: 2px solid hsl(220, 18%, 23%);
+  }
+
+  .contact-inputs::placeholder {
+    color: #a9a9a9;
+  }
+
+  .contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 7px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f9004d;
+    cursor: pointer;
+  }
+
+  .contact-left button:hover {
+    border: 1px solid #f44336;
+    background: #ece7e600;
+    transition: 0.5s;
+    color: #000;
+  }
+
+
+    .contact-getintouch {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+
+    .intouch-body {
+    margin-top: 50px;
+    }
+
+    .intouch-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+
+    .intouch-content {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    }
+}
 
   
 
