@@ -305,6 +305,7 @@ html {
   .contact-us {
     width: 80%;
     margin: auto;
+    background: black;
   }
   
   .contact-col {
