@@ -319,9 +319,9 @@ html {
   
   
   
-  .contact-col div p {
+  .contact-col  div p {
     padding: 0;
-    color: #fff;
+    color: #000000;
   }
   
   .contact-col div h5 {
