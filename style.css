@@ -292,7 +292,15 @@ html {
 
   .social .bi bi-instagram{
     color: #f96234;
-  } 
+  }
+
+  .social .bi bi-whatsapp{
+    color: #13b113;
+  }
+
+  .social .bi bi-linkein{
+    color: #0077B5;
+  }
   
   /*-----------Contact Us----------*/
   .location {
