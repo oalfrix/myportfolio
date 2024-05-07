@@ -289,6 +289,10 @@ html {
   .social all {
     gap: 2px;
   }
+
+  .social .bi bi-instagram{
+    color: #f96234;
+  } 
   
   /*-----------Contact Us----------*/
   .location {
@@ -443,6 +447,8 @@ html {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+
   
   /*------------------------Responsive--------------------------------*/
   @media (max-width: 774px) {
